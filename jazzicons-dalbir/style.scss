@@ -1,0 +1,52 @@
+/*
+Theme Name: Dalbir Singh
+Author: Dalbir Singh  
+Description: test theme to learn theme development.
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jazz
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+
+Let's do this.
+
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Media
+# Links
+# Layout
+# Accessibility
+--------------------------------------------------------------*/
+
+@import 'sass/variables/variables';
+
+@import 'sass/normalize';
+
+@import 'sass/typography/typography';
+
+@import 'sass/forms/forms';
+
+@import 'sass/navigation/navigation';
+
+@import 'sass/media/media';
+
+@import 'sass/links/links';
+
+@import 'sass/layout/layout';
+
+@import 'sass/accessibility/accessibility';

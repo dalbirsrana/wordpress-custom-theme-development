@@ -1,0 +1,53 @@
+.masthead {
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+
+    display: grid;
+    grid-template-columns: 70px 70px auto 140px;
+    justify-items: center;
+    box-shadow: 1px 1px 3px #333;
+    height: 70px;
+
+
+
+    .btn-menu-main-toggle {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .btn-search-toggle {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    h1 {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .btn-menu-share-toggle {
+        grid-column: 4;
+        grid-row: 1;
+        justify-self: right;
+    }
+
+    .btn {
+        width: 70px;
+        height: 70px;
+        appearance: none;
+        background-color: transparent;
+
+        border-bottom: none;
+
+        &:hover {
+            background-color: $color__links-hover-background;
+        }
+    }
+
+
+
+
+
+}

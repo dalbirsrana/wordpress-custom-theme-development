@@ -1,0 +1,36 @@
+
+/* common css for all navigation */
+nav {
+    ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        flex-grow: 1;
+        flex-shrink: 0;
+        padding: 0.4rem 1rem;
+        margin: 1px 0;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/* header navigation */
+
+.site-header {
+
+    nav {
+        li {
+            border: 1px solid #ccc;
+        }
+    }
+}
